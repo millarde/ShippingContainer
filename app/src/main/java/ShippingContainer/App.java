@@ -36,7 +36,7 @@ public class App {
         sc.changeQuantity( stringSKU, 42 );
         showContents(sc);
 
-        System.out.println( "\nOOPS! Kids didn't mow yard, removeing LEGOs...\n"); 
+        System.out.println( "\nOOPS! Kids didn't mow yard, removing LEGOs...\n"); 
 
         sc.removeItem( legoSKU );
         showContents(sc);               
